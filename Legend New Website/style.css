@@ -1,0 +1,156 @@
+p{
+    text-emphasis-color: inherit;
+}
+body{
+   background-image: url("/New Code/Legend New Website/Cars/porsche.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+header{
+    background:black;
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    color:#f4b400;
+    letter-spacing:2px;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#f4b400;
+}
+
+section{
+    padding:70px 40px;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.title h2{
+    color:#f4b400;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#f4b400;
+    color:black;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+
+.cars{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:30px;
+    
+}
+
+.car{
+    background:#161b22;
+    border-radius:15px;
+    overflow:hidden;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.car:hover{
+    transform: scale(1.1);
+
+}
+
+
+.car img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.car.zoom {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+.car-info{
+padding:20px;
+text-decoration:none;
+color: white;
+}
+
+.car.zoom {
+  transform: scale(1.2);
+  z-index: 10;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.price{
+    color:#f4b400;
+    font-weight:bold;
+}
+
+footer{
+    background:black;
+    position: relative;
+    text-align:center;
+    padding:70px 100px 70px 100px;
+    color:#aaa;
+}
+.Contact-card{
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 8px 3px 8px 3px;
+     width: 400px;
+     height: auto;
+     border-radius: 10px;
+     border: 1px rgba(255, 255, 255, 0.3) solid;
+     background: rgba(0, 0, 0, 0.5);
+     backdrop-filter: blur(5px);
+     transition: 0.4s ease;
+}
+
+.Contact-card:hover{
+    transform: scale(1.05);
+    backdrop-filter: blur(2px);
+}
+
+.Contact-card h2{
+    color: #f4b400;
+}
+
+.contact__container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact_form input, .contact_form textarea{
+    border-radius: 8px;
+
+}
