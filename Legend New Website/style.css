@@ -2,7 +2,7 @@ p{
     text-emphasis-color: inherit;
 }
 body{
-   background-image: url("/New Code/Legend New Website/Cars/porsche.jpg");
+   background-image: url("/Cars/porsche.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -152,5 +152,6 @@ footer{
 
 .contact_form input, .contact_form textarea{
     border-radius: 8px;
+
 
 }
